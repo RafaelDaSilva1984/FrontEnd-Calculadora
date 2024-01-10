@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xwG/Aq/56N2QSHFvWf6dkv9a8t+1EGZbXq1kl0bDL4P1mm5FNrFFShMeL/JpF4mhO86lY9FXo+ffnUcbX8FEcA==" crossorigin="anonymous" />
+    <script src="/index.js" defer></script>
+    <title>Cálculo de tinta</title>
+</head>
+<body>
+    <header class="header-nav">
+        <ul>
+            <li><a class="header-nav-link" href="indexII.html">Consumo de Tinta</a></li>
+            <li><a class="header-nav-link" href="index.html">Cálculo Porcentagem</a></li>
+        </ul>       
+    </header>
+    <h1>Consumo de Tinta</h1>
+    <br>
+    <div class="container">
+      
+      <div class="label">
+        <label class="valores-label" for="inputA">Área</label>
+      </div>
+      <div class="input">
+         <input class="valores-input" type="number" id="inputA">
+      </div>
+      <div class="label">
+        <label class="valores-label" for="inputB">Rendimento</label>
+      </div>
+      <div class="input">
+         <input class="valores-input" type="number" id="inputB">
+      </div>
+ 
+    </div>
+
+    <div class="container-button">
+        
+        <!-- <div class="container-button-soma">
+          <button class="button-soma" onclick="calcularSoma()">+</button>
+        </div> 
+        <div class="containet-button-sub">
+          <button class="button-sub" onclick="calcularSubtracao()">-</button>
+        </div>
+        <div class="container-button-mult">
+          <button class="button-mult" onclick="calcularMultiplicacao()">*</button>
+        </div>
+        <div class="container-button-pot">
+          <button class="button-pot" onclick="calcularPotencia()">**</button>
+        </div>
+        <div class="container-button-porc">
+          <button class="button-porc" onclick="calcularPorcentagem()">=</button>
+        </div>-->
+        <div class="container-button-div">
+            <button class="button-div" onclick="calcularDivisao()">=</button>
+          </div>
+        <div class="container-button-return">
+          <button class="button-return" id="resultado">Resultado</button>     
+        </div>
+        <div class="container-button-limpar" >
+          <button class="button-limpar" onclick="resetar()">C</button>   
+        </div>  
+        
+    </div>
+    <div class="footer">
+      <footer>
+          <p> 
+      <img class="devicon" src="https://cdn.jsdelivr.net/npm/devicon@2.10.0/icons/github/github-original.svg" alt="Github" width="30" height="30" fill:#111>
+      <a href="https://github.com/RafaelDaSilva1984" target="_blank"> Github </a> 
+      <br> <br>
+      &#174 Rafael da Silva 2024 &#169
+          </p>
+      </footer>
+    </div>
+</body>
+</html>

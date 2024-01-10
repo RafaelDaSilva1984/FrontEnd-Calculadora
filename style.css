@@ -1,0 +1,188 @@
+
+*{margin: 0;
+    padding: 0;}
+
+
+body{
+    background-color: #3c3c5c;
+    width: 960px;
+    margin:  auto;
+}
+
+h1{
+    color: rgba(237, 153, 35, 0.933);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    background-color: rgba(0,0,0,0.15);
+    background-size: 100%;
+    text-shadow: 1px 1px  #5a49bc;
+    box-shadow: inset 0 0 0 1000px rgba(48, 46, 46, 0.5);
+}
+footer{
+    color: rgba(237, 153, 35, 0.933);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 3.5%;
+    background-size: 100%;
+    text-shadow: 1px 1px  #1a1b4e;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(1, 17, 31);
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius:  50px 10px 50px 10px / 10px 50px 10px 50px ;
+    padding: 2.5px;
+    background-color: hwb(29 20% 7%);
+    text-shadow: 1px 1px  #f5bd89;  
+    box-shadow: 2px 1.5px #3c3c5c; 
+}
+
+.label , .input{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-shadow: 1px 1px  #5a49bc;
+}
+.header-nav ul{
+    margin-top: 5px;    
+    display:flex;
+    align-items: center; 
+    justify-content: center;  
+    color: orangered;
+    padding: 2px;
+    list-style: none;
+    gap: 10px;
+    
+}
+.header-nav-link{    
+    color: aliceblue;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 10px 50px 10px 50px / 50px 10px 50px 10px;
+    padding: 2.5px;
+    background-color: rgbahsl(240, 21%, 30%, 0.2);
+    text-shadow: 1px 1px  #ec7708;
+    box-shadow: 1.5px 2px #f5bd89;   
+}
+
+.header-nav-link:hover{    
+    color: rgb(1, 17, 31);
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius:  50px 10px 50px 10px / 10px 50px 10px 50px ;
+    padding: 2.5px;
+    background-color: hwb(29 20% 7%);
+    text-shadow: 1px 1px  #f5bd89;  
+    box-shadow: 2px 1.5px #3c3c5c;  
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 100%;
+    flex-direction: row;
+    gap: 100px;    
+    margin-left: 350px;
+    padding: 20px;
+    background-size: 100%;
+    border: solid 1px white;
+    border-radius: 10px;   
+    color: white; 
+    background-color: #3c3c5c;
+    border-radius: 50px 10px 50px 10px / 10px 50px 10px 50px;
+}
+.container:hover{
+    border: solid 1px rgb(219, 105, 12);
+    border-radius: 10px 50px 10px 50px / 50px 10px 50px 10px;
+    background-color: #f08e32;
+    color: white;
+
+   
+}
+.container-button{
+    display: flex;
+    justify-content: space-around;
+    width: 210px;
+    height: 100%;
+    flex-direction: row;
+    gap: 2px;    
+    margin-left: 350px;
+    padding: 20px;
+    background-size: 100%;    
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: #3c3c5c;
+    border-radius: 50px 10px 50px 10px / 10px 50px 10px 50px;
+}
+.container-button:hover{
+    border: solid 1px rgb(219, 105, 12);
+    border-radius: 10px 50px 10px 50px / 50px 10px 50px 10px;
+    background-color: #f08e32;
+      
+}
+
+
+.button-return{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 175px;
+    padding: 20px; 
+}
+.button-return:hover{
+    border: solid 1px white;
+    border-radius: 10px 50px 10px 50px / 50px 10px 50px 10px;
+    
+}
+.button-porc{
+    padding: 10px;
+      
+}
+.button-porc:hover{
+    box-shadow: inset 0 0 0 1000px rgba(81, 182, 41, 0.9); 
+    border: solid 1px white;
+    border-radius: 10px 50px 10px 50px / 50px 10px 50px 10px;    
+}
+
+.button-limpar{
+    padding: 10px;  
+    
+}
+.button-limpar:hover{
+    box-shadow: inset 0 0 0 1000px rgba(236, 214, 17, 0.9);  
+    border: solid 1px white;
+    border-radius: 10px 50px 10px 50px / 50px 10px 50px 10px;  
+}
+.button-div{
+    padding: 10px;
+}
+.button-div:hover{
+    box-shadow: inset 0 0 0 1000px rgba(81, 182, 41, 0.9); 
+    border: solid 1px white;
+    border-radius: 10px 50px 10px 50px / 50px 10px 50px 10px; v   
+}
+/* .button-soma{
+    padding: 10px;
+}
+.button-sub{
+    padding: 10px;
+}
+.button-mult{
+    padding: 10px;
+}
+.button-div{
+    padding: 10px;
+}
+.button-pot{
+    padding: 10px;
+} */
